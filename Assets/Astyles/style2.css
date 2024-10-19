@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+body{
+    text-align: center;
+    
+}
+.container-fluid{
+    width: 100%;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    height: 150px;
+    background-color: rgb(232, 116, 145);
+    border-radius: 24px;
+}
+.welcome{
+    padding: 10px;
+    background-color: #fc046b;
+    width: 100%;
+    height: 50px;
+    border-radius: 24px;
+}
+.asli{
+    display: flex;
+    flex-direction: row;
+    
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-between;
+    
+    
+    
+}
+.list li a{
+    color: black;
+    text-decoration: none;
+        
+}
+
+.slider{
+    width: 100%;
+    height: 400px;
+}
+.pic{
+    width: 100%;
+    height: 400px;
+    border-radius: 24px;
+}
+.titr{
+    padding: 30px;
+}
+.color1{
+    background-color: lightpink;
+    height: 50px;
+    border-radius: 24px;
+    padding: 12px;
+}
+.color2{
+    height: 200px;
+    width: 200px;
+    border-radius: 24px;
+}
+.color3{
+    height: 400px;
+    width: 500px;
+    border-radius: 24px;
+}
+.color4{
+    height: 200px;
+    width: 200px;
+    border-radius: 24px;
+    
+}
+.color5{
+    height: 200px;
+    width: 200px;
+    border-radius: 24px;
+}
+
+div[class^="col-"]{
+    float: left;
+    padding: 20px;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #fc046b;
+}
